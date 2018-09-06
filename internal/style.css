@@ -287,6 +287,28 @@ input[type=submit]:active {
     width: 70%;
     margin-left: 15%;
 }
+
+
+/*------Section Order-----*/
+
+.section-order {
+    margin: -50px 0;
+}
+
+.section-order h3 {
+    color: #e67e22;
+    text-align: center;
+    text-transform: none;
+    font-size: 100%;
+    margin: 20px 40px;
+    font-weight: 400;
+}
+
+.order {
+    padding-left: 42%;
+    margin-bottom: 30px;
+}
+
 /*------Footer-----*/
 
 footer {
