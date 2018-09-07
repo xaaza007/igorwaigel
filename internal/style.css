@@ -1,5 +1,4 @@
 /* Basic setup */
-
 * {
     margin: 0%;
     padding: 0%;
@@ -31,11 +30,8 @@ body {
 }
 
 /* ----------------------------------------------- */
-
 /*             Reusable Components                 */
-
 /* ----------------------------------------------- */
-
 .row {
     max-width: 1140px;
     margin: 0 auto;
@@ -51,7 +47,6 @@ section {
 }
 
 /*------Headings-----*/
-
 h1 {
     font-weight: 400;
     text-transform: uppercase;
@@ -96,7 +91,6 @@ h3 {
 }
 
 /*------Paragraphs-----*/
-
 .long-copy {
     line-height: 145%;
     width: 70%;
@@ -111,7 +105,6 @@ h3 {
 }
 
 /* Icons */
-
 ion-icon {
     font-size: 350%;
     display: block;
@@ -121,7 +114,6 @@ ion-icon {
 }
 
 /* Header */
-
 header {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(img/ekspertyzy_mykologiczne.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/ekspertyzy_mykologiczne.jpg);
@@ -149,7 +141,6 @@ header {
 }
 
 /* Nawigacja */
-
 .main-nav {
     float: right;
     list-style: none;
@@ -180,7 +171,6 @@ header {
 }
 
 /* Buttons */
-
 .btn:link,
 .btn:visited,
 input[type=submit] {
@@ -215,7 +205,6 @@ input[type=submit]:active {
 }
 
 /*------Features-----*/
-
 .section-features .long-copy {
     margin-bottom: 30px;
 }
@@ -226,7 +215,6 @@ input[type=submit]:active {
 }
 
 /* Gallery */
-
 .section-gallery {
     padding: 0;
 }
@@ -250,7 +238,7 @@ input[type=submit]:active {
 }
 
 .mold-photo img {
-    opacity: 0,7;
+    opacity: 0, 7;
     width: 100%;
     height: 90%;
     -webkit-transform: scale(1.15);
@@ -268,7 +256,6 @@ input[type=submit]:active {
 }
 
 /* Zakres działalności */
-
 .work-place h3 {
     text-align: center;
     text-transform: none;
@@ -279,7 +266,7 @@ input[type=submit]:active {
 }
 
 .work-place ul {
-   margin: 50px auto;
+    margin: 50px auto;
 }
 
 .long-list {
@@ -288,9 +275,7 @@ input[type=submit]:active {
     margin-left: 15%;
 }
 
-
 /*------Section Order-----*/
-
 .section-order {
     margin: -50px 0;
 }
@@ -309,8 +294,20 @@ input[type=submit]:active {
     margin-bottom: 30px;
 }
 
-/*------Footer-----*/
+/*------ Contact ----*/
+.contact h3 {
+    color: #e67e22;
+    text-align: center;
+    font-weight: 400;
+}
 
+.contact p {
+    text-align: center;
+    margin: 15px auto;
+}
+
+
+/*------Footer-----*/
 footer {
     background-color: #333;
     padding: 40px;
