@@ -15,34 +15,9 @@
     <link rel="stylesheet" href="external/css/Grid.css">
     <link rel="stylesheet" href="internal/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&amp;subset=latin-ext" rel="stylesheet">
-    
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-    <script>
-    window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-    "palette": {
-    "popup": {
-      "background": "#237afc"
-    },
-    "button": {
-      "background": "#fff",
-      "text": "#237afc"
-    }
-  },
-  "theme": "classic",
-  "position": "bottom-right",
-  "content": {
-    "message": "Ta strona używa plików Cookies. Dowiedz się więcej o celu ich używania i możliwości zmiany ustawień Cookies w przeglądarce.",
-    "dismiss": "OK!",
-    "link": "Dowiedz się więcej",
-    "href": "https://odgrzybianie.net/index.php/informacje-o-cookies"
-  }
-})});
-</script>
 
 
-        <!---Cookies-->
+    <!---Cookies-->
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
     <script>
@@ -76,7 +51,8 @@
         <nav>
             <div class="row">
                 <img src="internal/img/logo_krzywe.png" alt="WaigelLogo" class="logo">
-                <ul class="main-nav">
+                <img src="internal/img/logo_krzywe.png" alt="WaigelLogo" class="logo-sticky">
+                <ul class="main-nav js--main-nav">
                     <li>
                         <a href="#">Ekspertyzy mykologiczne i opinie mykologiczne</a>
                     </li>
@@ -91,12 +67,12 @@
         </nav>
 
         <div class="front-box">
-            <h1>Ekspertyzy mykologiczne</h1>
-            <a class="btn btn-full" href="#">Zamów / Zapytaj</a>
+            <h1>Ekspertyzy mykologiczne<br>Odgrzybianie mieszkań</h1>
+            <a class="btn btn-full" href="http://ozonowanie24.net/component/chronoforms6/?chronoform=zam%C3%B3w-zapytaj" target="_blank">Zamów / Zapytaj</a>
         </div>
     </header>
 
-    <section class="features-gray box">
+    <section class="features-gray box js--section-features">
         <div class="row">
             <ion-icon name="home"></ion-icon>
             <h2>Kupujesz nowe mieszkanie lub lokal użytkowy?</h2>
@@ -321,7 +297,7 @@
 
     <section class="section-order features-gray">
         <div class="order">
-            <a class="btn btn-full" href="#">Zamów / Zapytaj</a>
+            <a class="btn btn-full" href="http://ozonowanie24.net/component/chronoforms6/?chronoform=zam%C3%B3w-zapytaj" target="_blank">Zamów / Zapytaj</a>
         </div>
         <h3>Aby zapytać o szczegóły lub zamówić usługę wystarczy kliknąć w niebieski guzik i wypełnić formularz
             kontaktowy lub zadzwonić na numer:<br><br> +48 517 394 341<br><br>
@@ -332,12 +308,12 @@
 
     <section class="contact">
         <div class="row">
-                <h3>Adres do korespondencji:</h3>
-                <p>Waigel s.c.</p>
-                <p>46-024 Łubniany, ul. Opolska 52</p>
-                <p>Strona firmowa: http://www.waigel.pl</p>
-                <p>E-mail: biuro@waigel.pl</p>
-                <p>Telefon kontaktowy: +48 517 394 341</p>
+            <h3>Adres do korespondencji:</h3>
+            <p>Waigel s.c.</p>
+            <p>46-024 Łubniany, ul. Opolska 52</p>
+            <p>Strona firmowa: http://www.waigel.pl</p>
+            <p>E-mail: biuro@waigel.pl</p>
+            <p>Telefon kontaktowy: +48 517 394 341</p>
         </div>
     </section>
 
@@ -368,6 +344,9 @@
 
 
     <script src="https://unpkg.com/ionicons@4.3.0/dist/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="external/js/jquery.waypoints.min.js"></script>
+    <script src="internal/js/scripts.js"></script>
 </body>
 
 </html>

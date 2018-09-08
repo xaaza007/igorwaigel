@@ -140,6 +140,14 @@ header {
     margin-left: -150px;
 }
 
+.logo-sticky {
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+}
+
 /* Nawigacja */
 .main-nav {
     float: right;
@@ -168,6 +176,36 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+/* Sticky Navi */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    -webkit-box-shadow: 0 2px 2px #efefef;
+            box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav {
+    margin-top: 18px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: #555;
+}
+
+.sticky .logo {
+    display: none;
+}
+
+.sticky .logo-sticky {
+    display: block;
 }
 
 /* Buttons */
@@ -228,6 +266,7 @@ input[type=submit]:active {
     display: block;
     float: left;
     width: 25%;
+    padding: 0 5px;
 }
 
 .mold-photo {
@@ -305,7 +344,6 @@ input[type=submit]:active {
     text-align: center;
     margin: 15px auto;
 }
-
 
 /*------Footer-----*/
 footer {
