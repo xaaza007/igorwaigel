@@ -329,8 +329,7 @@ input[type=submit]:active {
 }
 
 .order {
-    padding-left: 42%;
-    margin-bottom: 30px;
+    text-align: center;
 }
 
 /*------ Contact ----*/
