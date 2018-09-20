@@ -109,8 +109,7 @@ ion-icon {
     font-size: 350%;
     display: block;
     color: #e67e22;
-    margin-bottom: 15px;
-    margin-left: 47%;
+    margin: 0 auto 15px auto;
 }
 
 /* Header */
@@ -137,7 +136,7 @@ header {
     width: auto;
     float: left;
     margin-top: 20px;
-    margin-left: -150px;
+    
 }
 
 .logo-sticky {
@@ -208,6 +207,20 @@ header {
     display: block;
 }
 
+/* Mobile Navi */
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon ion-icon {
+    font-size: 200%;
+    color: #fff;
+}
+
 /* Buttons */
 .btn:link,
 .btn:visited,
@@ -240,6 +253,10 @@ input[type=submit] {
 input[type=submit]:hover,
 input[type=submit]:active {
     background-color: #0080c0;
+}
+
+.section-order a {
+    margin: 0 auto 0 auto;
 }
 
 /*------Features-----*/
@@ -300,6 +317,9 @@ input[type=submit]:active {
 }
 
 /* Zakres działalności */
+
+
+
 .work-place h3 {
     text-align: center;
     text-transform: none;
@@ -346,7 +366,7 @@ input[type=submit]:active {
 
 .contact p {
     text-align: center;
-    margin: 15px auto;
+    margin: 10px auto;
 }
 
 /*------Footer-----*/
