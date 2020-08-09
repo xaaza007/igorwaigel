@@ -8,6 +8,10 @@
     .front-box {
         padding: 0 4%;
     }
+
+    .showcase li {
+        width: 50%;
+    }
 }
 
 
@@ -77,19 +81,28 @@
     .sticky .logo-sticky {
         display: block;
     }
-}
 
-h1 {
-    font-size: 180%;
-}
+    .showcase li {
+        width: 50%;
+    }
 
-h2 {
-    font-size: 150%;
-}
+    h1 {
+        font-size: 180%;
+    }
 
-.long-copy {
-    width: 100%;
-    margin-left: 0%;
+    h2 {
+        font-size: 150%;
+    }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    footer li {
+        font-size: 30px;
+    }
+
 }
 
 
